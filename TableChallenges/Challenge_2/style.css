@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower");
+
+body {
+  font-family: "Indie Flower", sans-serif;
+}
+
+hr {
+  height: 3px;
+  background-color: #000000;
+}
+
+tr td,
+tr th {
+  background-color: #7fffd3;
+}
+
+tr th {
+  color: #ff0000;
+  font-size: 26px;
+}
+
+tr td {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+table tr:nth-child(3) td:last-child {
+  background-color: #8fb1cc;
+}
+
+table caption {
+  caption-side: bottom;
+  font-size: 24px;
+  font-weight: bold;
+}

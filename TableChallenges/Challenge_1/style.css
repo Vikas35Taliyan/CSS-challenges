@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+* {
+  font-family: "poppins", "verdana";
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(
+      to right bottom,
+      rgba(14, 12, 12, 0.5),
+      rgba(16, 20, 22, 0.6)
+    ),
+    url("./images/background-image.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  text-align: center;
+  padding: 2%;
+  color: #e5dacd;
+}
+
+.yo h3 {
+  text-align: center;
+}
+
+.yo {
+  text-align: left;
+  padding: 0 24%;
+}
+
+.yo p input {
+  border-radius: 30px;
+  border: none;
+}
+
+.yo button {
+  background-color: #609ea0;
+  padding: 10px;
+  width: 45%;
+  border-radius: 10px;
+}
